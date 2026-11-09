@@ -1,0 +1,10 @@
+# Nmap 7.993 scan initiated Mon Nov  9 16:10:52 2026 as: nmap -sS -oN tcp_scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0010s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+5432/tcp open  postgresql
+
+# Nmap done at Mon Nov  9 16:10:52 2026 -- 1 IP address (1 host up) scanned in 0.49 seconds

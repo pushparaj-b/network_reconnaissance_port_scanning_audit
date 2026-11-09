@@ -1,0 +1,12 @@
+# Nmap 7.993 scan initiated Mon Nov  9 16:12:06 2026 as: nmap -sV -oA nmap_final_report 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0013s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+445/tcp  open  microsoft-ds?
+5432/tcp open  postgresql    PostgreSQL DB
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  9 16:12:12 2026 -- 1 IP address (1 host up) scanned in 6.93 seconds

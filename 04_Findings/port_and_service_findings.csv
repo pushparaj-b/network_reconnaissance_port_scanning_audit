@@ -1,0 +1,2 @@
+Finding ID,Target,Port,Protocol,State,Service,Version,Evidence File,Observation,Potential Impact,Severity,Recommendation,Validation Status
+F-001,NOT RUN,,,,,,,Awaiting genuine Nmap output,,,,Not assessed

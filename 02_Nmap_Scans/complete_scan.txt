@@ -1,0 +1,29 @@
+# Nmap 7.993 scan initiated Mon Nov  9 16:11:42 2026 as: nmap -sS -sV -O -oN complete_scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00023s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+445/tcp  open  microsoft-ds?
+5432/tcp open  postgresql    PostgreSQL DB
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.993%E=4%D=11/9%OT=135%CT=1%CU=32068%PV=Y%DS=0%DC=L%G=Y%TM=6AF1A
+OS:379%P=i686-pc-windows-windows)SEQ(SP=100%GCD=1%ISR=10D%TI=I%CI=I%TS=A)SE
+OS:Q(SP=101%GCD=1%ISR=106%TI=I%CI=I%TS=A)SEQ(SP=105%GCD=1%ISR=10B%TI=I%CI=I
+OS:%TS=A)SEQ(SP=F2%GCD=1%ISR=FB%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FE%GCD=1%IS
+OS:R=106%TI=I%CI=I%TS=A)OPS(O1=MFFD7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT1
+OS:1%O4=MFFD7NW8ST11%O5=MFFD7NW8ST11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FF
+OS:FF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q
+OS:=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=
+OS:AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T
+OS:=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=
+OS:0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=
+OS:Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=
+OS:G%RUCK=G%RUD=G)IE(R=N)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 0 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  9 16:12:01 2026 -- 1 IP address (1 host up) scanned in 18.84 seconds
